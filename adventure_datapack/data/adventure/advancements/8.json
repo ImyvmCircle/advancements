@@ -1,0 +1,48 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:levitation",
+            "conditions": {
+                "distance": {
+                    "absolute": {
+                        "max": 10,
+                        "min": 0
+                    },
+                    "horizontal": {
+                        "min": 0,
+                        "max": 20
+                    },
+                    "x": {
+                        "min": 918,
+                        "max": 918
+                    },
+                    "y": {
+                        "min": 67,
+                        "max": 67
+                    },
+                    "z": {
+                        "min": 3145,
+                        "max": 3145
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "老陵东北的收费站"
+        },
+        "description": {
+            "text": "从收费站进入西北地区"
+        },
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure:root"
+}

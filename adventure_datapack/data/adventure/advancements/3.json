@@ -1,0 +1,48 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:levitation",
+            "conditions": {
+                "distance": {
+                    "absolute": {
+                        "max": 20,
+                        "min": 0
+                    },
+                    "horizontal": {
+                        "min": 0,
+                        "max": 20
+                    },
+                    "x": {
+                        "min": 983,
+                        "max": 983
+                    },
+                    "y": {
+                        "min": 72,
+                        "max": 72
+                    },
+                    "z": {
+                        "min": 3335,
+                        "max": 3335
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "七神之光"
+        },
+        "description": {
+            "text": "矗立在临冬西教区的大教堂"
+        },
+        "icon": {
+            "item": "minecraft:blaze_rod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure:root"
+}

@@ -1,0 +1,49 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:levitation",
+            "conditions": {
+                "distance": {
+                    "absolute": {
+                        "max": 50,
+                        "min": 0
+                    },
+                    "horizontal": {
+                        "min": 0,
+                        "max": 20
+                    },
+                    "x": {
+                        "min": 706,
+                        "max": 706
+                    },
+                    "y": {
+                        "min": 66,
+                        "max": 66
+                    },
+                    "z": {
+                        "min": 3326,
+                        "max": 3326
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "黑城堡",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "守护着冬境的守夜人驻地"
+        },
+        "icon": {
+            "item": "minecraft:spruce_wood"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure:3"
+}

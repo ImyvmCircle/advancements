@@ -1,0 +1,26 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {},
+    "rewards": {
+        "experience": 100
+    },
+    "display": {
+        "title": {
+            "text": "发现临冬!",
+            "color": "blue",
+            "bold": true
+        },
+        "description": {
+            "text": "进入临冬城范围",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    }
+}
