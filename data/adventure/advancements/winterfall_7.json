@@ -1,0 +1,41 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 973,
+                        "max": 975
+                    },
+                    "y": {
+                        "min": 70,
+                        "max": 72
+                    },
+                    "z": {
+                        "min": 3304,
+                        "max": 3306
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "摩天轮"
+        },
+        "description": {
+            "text": "临冬北方的奇怪大轮盘"
+        },
+        "icon": {
+            "item": "minecraft:music_disc_cat"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "adventure:winterfall"
+}

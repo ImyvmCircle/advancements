@@ -1,0 +1,42 @@
+{
+    "display": {
+        "title": {
+            "text": "铁路线",
+            "bold": true
+        },
+        "description": {
+            "text": "准备发车，请站稳扶好",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:rail"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "example": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -57,
+                        "max": 88
+                    },
+                    "y": {
+                        "min": 67,
+                        "max": 75
+                    },
+                    "z": {
+                        "min": 518,
+                        "max": 570
+                    }
+                }
+            }
+        }
+    },
+    "parent": "adventure:root"
+}

@@ -1,0 +1,41 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 982,
+                        "max": 984
+                    },
+                    "y": {
+                        "min": 71,
+                        "max": 73
+                    },
+                    "z": {
+                        "min": 3334,
+                        "max": 3336
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "七神之光"
+        },
+        "description": {
+            "text": "矗立在临冬西教区的大教堂"
+        },
+        "icon": {
+            "item": "minecraft:blaze_rod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "adventure:winterfall"
+}

@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "SuperLoli",
+            "color": "light_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "竹萌AAAAA级风景区",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:dark_oak_sapling"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spawn": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -148,
+                        "max": 242
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 256
+                    },
+                    "z": {
+                        "min": 605,
+                        "max": 766
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1
+    },
+    "parent": "adventure:places"
+}

@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "发现临冬!",
+            "color": "blue",
+            "bold": true
+        },
+        "description": {
+            "text": "进入临冬城范围",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spawn": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 324,
+                        "max": 1750
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 256
+                    },
+                    "z": {
+                        "min": 2900,
+                        "max": 4050
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1
+    },
+    "parent": "adventure:places"
+}

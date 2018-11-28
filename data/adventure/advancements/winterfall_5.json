@@ -1,0 +1,41 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 758,
+                        "max": 760
+                    },
+                    "y": {
+                        "min": 63,
+                        "max": 65
+                    },
+                    "z": {
+                        "min": 3303,
+                        "max": 3305
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "黑城堡的小教堂"
+        },
+        "description": {
+            "text": "向七神诚心地祈祷吧"
+        },
+        "icon": {
+            "item": "minecraft:infested_stone_bricks"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "adventure:winterfall_4"
+}

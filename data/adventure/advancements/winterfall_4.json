@@ -1,0 +1,42 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 705,
+                        "max": 707
+                    },
+                    "y": {
+                        "min": 65,
+                        "max": 67
+                    },
+                    "z": {
+                        "min": 3325,
+                        "max": 3327
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "黑城堡",
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "守护着冬境的守夜人驻地"
+        },
+        "icon": {
+            "item": "minecraft:spruce_wood"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "adventure:winterfall_3"
+}

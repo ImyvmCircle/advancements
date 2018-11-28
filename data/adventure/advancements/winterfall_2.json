@@ -1,0 +1,42 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 1104,
+                        "max": 1106
+                    },
+                    "y": {
+                        "min": 40,
+                        "max": 42
+                    },
+                    "z": {
+                        "min": 3293,
+                        "max": 3295
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "地铁？",
+            "bold": false
+        },
+        "description": {
+            "text": "找到临冬心树下的地铁"
+        },
+        "icon": {
+            "item": "minecraft:compass"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "adventure:winterfall_1"
+}

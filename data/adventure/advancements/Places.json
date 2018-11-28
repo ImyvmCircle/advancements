@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "村落线",
+            "bold": true
+        },
+        "description": {
+            "text": "村落古迹",
+            "bold": true
+        },
+        "icon": {
+            "item": "minecraft:acacia_door"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "test": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:stone"
+            }
+        }
+    },
+    "parent": "adventure:root"
+}

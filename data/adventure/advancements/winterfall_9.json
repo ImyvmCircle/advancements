@@ -1,0 +1,41 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 846,
+                        "max": 848
+                    },
+                    "y": {
+                        "min": 63,
+                        "max": 65
+                    },
+                    "z": {
+                        "min": 3135,
+                        "max": 3137
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "西北港"
+        },
+        "description": {
+            "text": "临冬河畔的港口"
+        },
+        "icon": {
+            "item": "minecraft:map"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "adventure:winterfall_8"
+}

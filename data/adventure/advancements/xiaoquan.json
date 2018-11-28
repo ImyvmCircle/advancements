@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "小泉村",
+            "color": "blue",
+            "bold": true
+        },
+        "description": {
+            "text": "为咸鱼而努力",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:cod"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spawn": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 1100,
+                        "max": 1400
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 256
+                    },
+                    "z": {
+                        "min": -200,
+                        "max": 100
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1
+    },
+    "parent": "adventure:places"
+}

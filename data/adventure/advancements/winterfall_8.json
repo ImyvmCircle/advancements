@@ -1,0 +1,41 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 917,
+                        "max": 919
+                    },
+                    "y": {
+                        "min": 66,
+                        "max": 68
+                    },
+                    "z": {
+                        "min": 3144,
+                        "max": 3146
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "老陵东北的收费站"
+        },
+        "description": {
+            "text": "从收费站进入西北地区"
+        },
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "adventure:winterfall"
+}

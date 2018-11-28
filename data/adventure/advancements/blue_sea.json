@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "BLE_SEA",
+            "color": "yellow",
+            "bold": true
+        },
+        "description": {
+            "text": "大佬认证",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spawn": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": -5300,
+                        "max": -3500
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 256
+                    },
+                    "z": {
+                        "min": -3200,
+                        "max": -4500
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1
+    },
+    "parent": "adventure:places"
+}

@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "静溪",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "text": "精诚团结",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:spruce_sapling"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "spawn": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 387,
+                        "max": 623
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 256
+                    },
+                    "z": {
+                        "min": 668,
+                        "max": 992
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 1
+    },
+    "parent": "adventure:places"
+}
