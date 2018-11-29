@@ -1,8 +1,9 @@
 {
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
     "display": {
         "title": {
             "text": "竹萌环游记",
-            "color": "green",
+            "color": "white",
             "bold": true,
             "italic": false,
             "underlined": false,
@@ -10,16 +11,44 @@
             "obfuscated": false
         },
         "description": {
-            "text": "进入临冬城范围",
-            "color": "yellow"
+            "text": "欢迎来到竹萌IMYVM服务器",
+            "color": "gold",
+            "bold": true
         },
         "icon": {
             "item": "minecraft:green_bed"
         },
-        "frame": "goal",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": true,
+        "hidden": false,
         "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
-    }
+    },
+    "criteria": {
+        "spawn": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "dimension": "overworld",
+                "position": {
+                    "x": {
+                        "min": 135,
+                        "max": 195
+                    },
+                    "y": {
+                        "min": 0,
+                        "max": 100
+                    },
+                    "z": {
+                        "min": 466,
+                        "max": 527
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "spawn"
+        ]
+    ]
 }
