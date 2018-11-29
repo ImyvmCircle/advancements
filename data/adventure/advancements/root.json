@@ -1,16 +1,4 @@
 {
-<<<<<<< HEAD
-    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
-    "criteria": {},
-    "rewards": {
-        "experience": 100
-    },
-    "display": {
-        "title": {
-            "text": "发现临冬!",
-            "color": "blue",
-            "bold": true
-=======
     "display": {
         "title": {
             "text": "竹萌环游记",
@@ -20,18 +8,13 @@
             "underlined": false,
             "strikethrough": false,
             "obfuscated": false
->>>>>>> 86429c7... Update
         },
         "description": {
             "text": "进入临冬城范围",
             "color": "yellow"
         },
         "icon": {
-<<<<<<< HEAD
-            "item": "minecraft:ice"
-=======
             "item": "minecraft:green_bed"
->>>>>>> 86429c7... Update
         },
         "frame": "goal",
         "show_toast": true,
